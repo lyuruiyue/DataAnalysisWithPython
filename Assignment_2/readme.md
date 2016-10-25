@@ -11,8 +11,8 @@ This one needs you to input two parameters, one is keyword and the other is loca
 
 It will ask you to input a integer from 1 to 5.
 1 to 3 are based on the result of script 1, and 4 to 5 are based on the result of script 2
-1.Average followers of users who tweet about the search keyword
-2.The amount of Tweets in MA state and New York state related to the keyword
-3.Which day that users tweets the most in a week
-4.Top 10 retweeted twitter related to the search keyword and location
-5.Top influential tweet related to the search keyword and location
+# 1.Average followers of users who tweet about the search keyword
+# 2.The amount of Tweets in MA state and New York state related to the keyword
+# 3.Which day that users tweets the most in a week
+# 4.Top 10 retweeted twitter related to the search keyword and location
+# 5.Top influential tweet related to the search keyword and location
