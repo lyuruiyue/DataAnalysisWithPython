@@ -161,7 +161,7 @@ if (num in "3"):
     dic.update({"Thu":r})
     dic.update({"Fri":f})
     dic.update({"Sat":sat})
-
+    dic.update({"Sun":sun})
     dict = sorted(dic.items(), key = lambda d:d[1], reverse = True)
     print ("Most people tweet %s on %s"%(root_dir,dict[0]))
 if (num in "4"):
