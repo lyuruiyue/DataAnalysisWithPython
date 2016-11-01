@@ -10,9 +10,9 @@ Thirdly, get all the question ids from the saved JSON results and send requests 
 
 Fourthly, send 5 requests using "/answers" api, and save the JSON format results into "stack_exchange_answer_result" folder. Get all the user ids from the result and send the requests using "/users/{ids}" api. Then calculate the weightage of each user and print the results sorted by the weightage. The output is like('user name', weightage) (weightage = bronze count + silver count * 2 + gold count * 3)
 
-Fifthly, send request using "/users/{ids}/badges" api to get all the badges the user earned. And print the user names who earned the badge named "Teacher".
+Fifthly, send requests using "/users/{ids}/badges" api to get all the badges the user earned. And print the user names who earned the badge named "Teacher".
 
-Lastly, send the requests using "/users/{ids}/favorites" api to get the items that each user had favorited. And then from the results print random 5 questions. 
+Lastly, send the requests using "/users/{ids}/favorites" api to get the items that each user had favorited. And then from the results print random 5 entries. 
 
 # Used apis
 
