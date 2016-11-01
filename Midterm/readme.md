@@ -1,6 +1,6 @@
 # Midterm
 
-Defined the key
+### Copy and paste the code into Jupyter Notebook and run
 
 First of all, after you run the script, it would send 5 requests using "/questions/no-answers" api to get the questions which has no answers and tagged "python". Then stored the JSON format results into the folder named "stack_exchange_result"
 
@@ -14,11 +14,11 @@ Fifthly, send request using "/users/{ids}/badges" api to get all the badges the 
 
 Lastly, send the requests using "/users/{ids}/favorites" api to get the items that each user had favorited. And then from the results print random 5 questions. 
 
-### Used apis
+# Used apis
 
-/questions/no-answers
-/questions/{ids}
-/answers
-/users/{ids}
-/users/{ids}/badges
-/users/{ids}/favorites
+## /questions/no-answers
+## /questions/{ids}
+## /answers
+## /users/{ids}
+## /users/{ids}/badges
+## /users/{ids}/favorites
